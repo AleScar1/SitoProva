@@ -1,0 +1,57 @@
+/* Reset dei margini e padding di default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile per il corpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Stile per l'header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenitore dei due div centrali */
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 1200px;
+    gap: 20px; /* Spazio tra i due div */
+}
+
+/* Stile per il primo div (giallo) */
+.yellow-div {
+    background-color: yellow;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+/* Stile per il secondo div (rosso) */
+.red-div {
+    background-color: red;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+/* Stile per il footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

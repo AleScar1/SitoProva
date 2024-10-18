@@ -1,0 +1,160 @@
+/* Reset margini */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Sezione principale */
+.main-section {
+    padding: 20px;
+}
+
+/* Stile dell'header con immagine di sfondo */
+.hero-header {
+    height: 400px;
+    background-image: ; /* Inserisci il percorso della tua immagine */
+    background-size: cover;      /* L'immagine coprirà tutto lo spazio disponibile */
+    background-position: center; /* Centra l'immagine orizzontalmente e verticalmente */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;                /* Colore del testo */
+    text-align: center;
+}
+
+.hero-header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-header p {
+    font-size: 24px;
+    margin: 10px 0 0 0;
+}
+
+
+/* Stile per l'header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* Stile per la navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+
+
+
+/* Animazione al passaggio del mouse (laser che si allunga) */
+.nav-item:hover::before {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/* Contenitore immagine con sfondo*/
+img {
+    height: 800px;
+    width: 1550px;
+    background-position: center; /* Centra orizzontalmente e verticalmente */
+    background-size: contain;    /* Assicura che l'immagine sia contenuta nel div mantenendo le proporzioni */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+}
+
+
+
+
+/* Titolo del luogo */
+h1 {
+    font-family: 'Prata', serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+/* Regione del paesaggio */
+h3 {
+    font-family: 'Prata', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Paragrafo autore */
+p {
+    margin-top: 16px;
+}
+
+p a {
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Stile per h6 (Luoghi correlati) */
+h6 {
+    padding: 22px;
+    margin-top: 56px;
+    margin-bottom: 0;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(to right, #e6360a, #7a1908); /* Cambia i colori in base alla foto */
+}
+
+/* Lista non ordinata */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 6px 22px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #eb550f; /* Usa il primo colore del gradiente */
+}
+
+ul li a:visited {
+    color: #92d32a; /* Usa il secondo colore del gradiente */
+}
+
+/* Footer */
+.footer1 {
+    background: linear-gradient(to right, #e6360a, #7a1908); /* Cambia i colori in base alla foto */
+
+    height: 50px; /* Altezza di 50px */
+    text-align: left; /* Testo centrato */
+    line-height: 50px; /* Allineamento verticale del testo */
+    color: rgb(8, 19, 2); /* Colore del testo */ 
+}
+
