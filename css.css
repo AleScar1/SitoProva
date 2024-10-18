@@ -12,15 +12,11 @@ body {
 /* Stile dell'header con immagine di sfondo */
 .hero-header {
     height: 400px;
+   /*  background-image: ; 
 
-    /*  img ggggggggggggggggggggggggggggggggggggggg
-    
-    ggggggggggggggggggggggggggggg
-    ggggggggggggggggggggggggggggg
-
-    ggggggggggggggggggggggggggggg
+   /* 
+   Inserisci il percorso della tua immagine
     */
-   /*  background-image: ; /* Inserisci il percorso della tua immagine */
     background-size: cover;      /* L'immagine coprirà tutto lo spazio disponibile */
     background-position: center; /* Centra l'immagine orizzontalmente e verticalmente */
     
